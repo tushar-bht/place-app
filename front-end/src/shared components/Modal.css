@@ -1,0 +1,21 @@
+.modal {
+  z-index: 10;
+  text-align: center;
+  position: fixed;
+  width: 40%;
+  top: 15vh;
+  left: 27%;
+  padding: 30px;
+  box-shadow: 1px 1px 8px rgb(150, 150, 150);
+  background-color: whitesmoke;
+}
+
+@media only screen and (max-width: 430px) {
+  .modal header {
+    font-size: 8px;
+  }
+  .modal {
+    width: 40%;
+    left: 20%;
+  }
+}

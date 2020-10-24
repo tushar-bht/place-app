@@ -1,0 +1,10 @@
+.side-drawer {
+  width: 75%;
+  background-color: rgb(27, 25, 25);
+  height: 60rem;
+  z-index: 3;
+  position: absolute;
+}
+.side-drawer li {
+  margin: 2rem;
+}

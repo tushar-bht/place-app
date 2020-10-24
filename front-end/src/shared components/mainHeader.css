@@ -1,0 +1,6 @@
+.main-header {
+  background-color: #1b1919;
+  box-shadow: 1px 1px 3px #cecbcb;
+
+  display: flex;
+}

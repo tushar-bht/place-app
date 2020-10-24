@@ -1,0 +1,28 @@
+.user-item {
+  width: 250px;
+  padding: 15px 25px;
+  background-color: #302f32;
+  border-radius: 4%;
+
+  color: rgb(238, 235, 235);
+}
+.user-item:hover {
+  padding: 15px 25px;
+
+  text-align: center;
+  color: rgb(221, 255, 0);
+  cursor: pointer;
+}
+.user-item__image img {
+  border-radius: 50%;
+  height: 90px;
+  width: 90px;
+}
+.user-item__info {
+  text-decoration: none;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.user-item__info .user-name {
+  font-size: xx-large;
+}

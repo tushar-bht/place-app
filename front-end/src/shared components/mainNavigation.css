@@ -1,0 +1,29 @@
+.main-navigation button {
+  color: whitesmoke;
+  background-color: rgba(44, 37, 30, 0.612);
+  outline: 0;
+  border: none;
+}
+
+.main-navigation__title a {
+  color: rgb(237, 248, 237);
+  text-shadow: 2px 2px 5px rgb(127, 127, 127);
+  text-decoration: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 20px 0 0 0;
+}
+.allNavLinks {
+  position: absolute;
+  right: 0;
+}
+
+@media only screen and (min-width: 800px) {
+  .main-navigation button {
+    visibility: hidden;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .allNavLinks {
+    display: none;
+  }
+}

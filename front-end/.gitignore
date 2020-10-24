@@ -1,0 +1,6 @@
+node_modules
+.env.production
+htd
+build
+.env
+Backend/nodemon.json

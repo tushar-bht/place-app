@@ -1,0 +1,14 @@
+.button {
+  border-radius: 7px;
+  text-align: center;
+  padding: 10px 14px;
+  margin: 3px;
+  outline: none;
+  border: none;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  background-color: teal;
+}
+.button:hover {
+  cursor: pointer;
+  box-shadow: 1px 1px 5px rgb(186, 184, 184);
+}

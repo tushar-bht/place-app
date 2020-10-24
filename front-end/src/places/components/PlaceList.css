@@ -1,0 +1,20 @@
+.place-list {
+  text-align: center;
+  list-style-type: none;
+  width: 40%;
+  margin: 20px auto;
+  padding: 0px;
+}
+.place-card {
+  border-radius: 0 0 25px 25px;
+  margin: 40px auto;
+  padding-bottom: 5px;
+  background-color: #b4ff0539;
+  overflow: auto;
+}
+
+@media only screen and (max-width: 670px) {
+  .place-list {
+    width: 80%;
+  }
+}

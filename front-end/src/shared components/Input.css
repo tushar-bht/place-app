@@ -1,0 +1,26 @@
+.form-control {
+  margin: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  padding: 18px;
+  box-shadow: 1px 1px 5px rgb(130, 128, 128);
+  border-radius: 5px;
+  background-color: whitesmoke;
+}
+
+.form-control label {
+  margin: 5px 0;
+}
+.form-control input {
+  border: 1px solid rgb(184, 184, 184);
+  outline-color: rgb(152, 151, 151);
+}
+.form-control--invalid {
+  color: red;
+}
+
+.form-control--invalid input,
+.form-control--invalid textarea {
+  background-color: rgba(255, 0, 0, 0.122);
+  border: 1px solid rgba(255, 0, 0, 0.238);
+}
