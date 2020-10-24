@@ -3,4 +3,3 @@ node_modules
 htd
 build
 .env
-Backend/nodemon.json
