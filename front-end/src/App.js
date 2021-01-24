@@ -7,10 +7,6 @@ import {
 } from "react-router-dom";
 
 import LoadingSpinner from "./shared components/util/LoadingSpinner";
-//import NewPlace from "./places/pages/newPlace";
-//import UserPlaces from "./places/pages/UserPlaces";
-//import UpdatePlace from "./places/pages/updatePlace";
-//import Authenticate from "./users/pages/authenticate";
 
 import MainHeader from "./shared components/mainNavigation";
 import Users from "./users/pages/user";

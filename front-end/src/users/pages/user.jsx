@@ -10,12 +10,10 @@ function Users() {
   const { sendRequest, isLoading, error, clearError } = useHttpClient();
   useEffect(() => {
     async function getUsers() {
-      console.log("ghkd");
       try {
         const responseData = await sendRequest(
           process.env.REACT_APP_BACKEND_URL + "/users"
         );
-        console.log(responseData + "ghkd");
         setLoadedUsers(responseData.users);
       } catch (err) {
         console.log(err);
